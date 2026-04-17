@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://calmano.co/</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <priority>1.0</priority>
     <changefreq>daily</changefreq>
   </url>
@@ -560,7 +560,7 @@
   </url>
   <url>
     <loc>https://calmano.co/condiciones/ansiedad-estres/</loc>
-    <lastmod>2026-04-15</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -614,6 +614,12 @@
   </url>
   <url>
     <loc>https://calmano.co/condiciones/fistula-perianal-complemento/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/condiciones/fisura-anal-cronica-manejo/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
@@ -739,6 +745,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://calmano.co/condiciones/hemorroides-postparto-recuperacion/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://calmano.co/condiciones/hemorroides-postparto/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -746,6 +758,30 @@
   </url>
   <url>
     <loc>https://calmano.co/condiciones/hemorroides-trombosadas/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/condiciones/hemorroides-y-alimentacion-colombiana/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/condiciones/hemorroides-y-ejercicio-seguro/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/condiciones/hemorroides-y-trabajo-sentado/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/condiciones/hemorroides-y-viajes-largos/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
