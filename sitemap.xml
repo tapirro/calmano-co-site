@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://calmano.co/opiniones/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
@@ -470,7 +470,7 @@
   </url>
   <url>
     <loc>https://calmano.co/ingredientes/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -578,7 +578,7 @@
   </url>
   <url>
     <loc>https://calmano.co/condiciones/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -603,6 +603,12 @@
   <url>
     <loc>https://calmano.co/condiciones/ardor-anal/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/condiciones/colitis-nerviosa/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -633,6 +639,12 @@
   <url>
     <loc>https://calmano.co/condiciones/disbiosis-intestinal/</loc>
     <lastmod>2026-04-17</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/condiciones/diverticulosis/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1009,14 +1021,32 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://calmano.co/condiciones/hepatitis-grasa/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://calmano.co/condiciones/inflamacion-anal/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://calmano.co/condiciones/intolerancia-lactosa/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://calmano.co/condiciones/irritacion-por-diarrea/</loc>
     <lastmod>2026-04-16</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/condiciones/nauseas-embarazo/</loc>
+    <lastmod>2026-04-18</lastmod>
     <priority>0.6</priority>
     <changefreq>monthly</changefreq>
   </url>
@@ -1105,6 +1135,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://calmano.co/condiciones/ulcera-gastrica/</loc>
+    <lastmod>2026-04-18</lastmod>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://calmano.co/condiciones/varices-piernas/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.6</priority>
@@ -1121,41 +1157,5 @@
     <lastmod>2026-04-15</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://calmano.co/condiciones/intolerancia-lactosa/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://calmano.co/condiciones/ulcera-gastrica/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://calmano.co/condiciones/nauseas-embarazo/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://calmano.co/condiciones/diverticulosis/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://calmano.co/condiciones/hepatitis-grasa/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://calmano.co/condiciones/colitis-nerviosa/</loc>
-    <lastmod>2026-04-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>
