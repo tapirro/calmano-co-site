@@ -307,6 +307,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://calmano.co/ingrediente/acido-folico/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://calmano.co/ingrediente/aloe-vera/</loc>
     <lastmod>2026-04-16</lastmod>
     <priority>0.7</priority>
@@ -320,6 +326,12 @@
   </url>
   <url>
     <loc>https://calmano.co/ingrediente/arnica/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/ingrediente/calcio/</loc>
     <lastmod>2026-04-17</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
@@ -355,6 +367,12 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://calmano.co/ingrediente/hierro/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://calmano.co/ingrediente/lavanda/</loc>
     <lastmod>2026-04-17</lastmod>
     <priority>0.7</priority>
@@ -362,6 +380,12 @@
   </url>
   <url>
     <loc>https://calmano.co/ingrediente/llanten/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/ingrediente/magnesio/</loc>
     <lastmod>2026-04-17</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
@@ -379,7 +403,37 @@
     <changefreq>monthly</changefreq>
   </url>
   <url>
+    <loc>https://calmano.co/ingrediente/omega-3/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/ingrediente/potasio/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/ingrediente/selenio/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/ingrediente/silicio-organico/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>https://calmano.co/ingrediente/vitamina-b12/</loc>
+    <lastmod>2026-04-17</lastmod>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://calmano.co/ingrediente/vitamina-b6/</loc>
     <lastmod>2026-04-17</lastmod>
     <priority>0.7</priority>
     <changefreq>monthly</changefreq>
@@ -1067,23 +1121,5 @@
     <lastmod>2026-04-15</lastmod>
     <priority>0.5</priority>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://calmano.co/ingrediente/vitamina-b6/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://calmano.co/ingrediente/magnesio/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://calmano.co/ingrediente/selenio/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 </urlset>
