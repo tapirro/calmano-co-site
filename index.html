@@ -530,7 +530,72 @@ a:hover{text-decoration:underline}
   <p style="font-family:Georgia,serif;font-size:1.1rem;color:#1a5632;text-align:center;margin-bottom:.8rem">
     <strong>Calmano</strong> — Solicita información
   </p>
-  <form id="lead-form-hero" action="https://lead-capture.mantissa-bot.workers.dev/" method="POST" style="max-width:400px;margin:0 auto">
+  <!-- R3: Bundle pricing selector -->
+<style>
+.bundle-selector {
+  display: flex; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap; justify-content: center;
+}
+.bundle-card {
+  flex: 1; min-width: 90px; max-width: 160px;
+  border: 2px solid #e2e8f0; border-radius: 12px; padding: 12px 8px;
+  text-align: center; cursor: pointer; position: relative;
+  transition: border-color 0.2s, box-shadow 0.2s; background: #fff;
+}
+.bundle-card:has(input:checked) {
+  border-color: #FF6B35; box-shadow: 0 0 0 3px rgba(255,107,53,0.15);
+}
+.bundle-card input[type="radio"] { display: none; }
+.bundle-badge {
+  position: absolute; top: -10px; left: 50%; transform: translateX(-50%);
+  background: #FF6B35; color: #fff; font-size: 0.65rem; font-weight: 700;
+  padding: 2px 8px; border-radius: 10px; white-space: nowrap;
+}
+.bundle-name { display: block; font-weight: 600; font-size: 0.9rem; color: #334155; margin-bottom: 4px; }
+.bundle-price { display: block; font-size: 1.15rem; font-weight: 800; color: #1a1a1a; }
+.bundle-anchor { display: block; font-size: 0.8rem; color: #94a3b8; }
+.bundle-unit { display: block; font-size: 0.75rem; color: #64748b; margin-top: 2px; }
+.bundle-savings { display: block; font-size: 0.7rem; color: #16a34a; font-weight: 600; margin-top: 2px; }
+.bundle-disclaimer { display: block; font-size: 0.7rem; color: #94a3b8; text-align: center; margin-bottom: 0.75rem; }
+</style>
+<div class="bundle-selector">
+  <label class="bundle-card">
+    <input type="radio" name="bundle" value="1" data-price="139900" data-unit="139900">
+    <span class="bundle-name">1 frasco</span>
+    <span class="bundle-price">$139.900</span>
+    
+  </label>
+  <label class="bundle-card recommended">
+    <input type="radio" name="bundle" value="3" data-price="379000" data-unit="126333" checked>
+    <span class="bundle-badge">Más vendido</span>
+    <span class="bundle-name">3 frascos</span>
+    <span class="bundle-price">$379.000</span>
+    <span class="bundle-unit">$126.333 c/u</span>
+    <span class="bundle-savings">Ahorras $40.700</span>
+  </label>
+  <label class="bundle-card">
+    <input type="radio" name="bundle" value="6" data-price="669000" data-unit="111500">
+    <span class="bundle-name">6 frascos</span>
+    <span class="bundle-price">$669.000</span>
+    <span class="bundle-unit">$111.500 c/u</span>
+    <span class="bundle-savings">Ahorras $170.400</span>
+  </label>
+</div>
+<small class="bundle-disclaimer">Precio referencial. Precio final confirmado por teléfono antes del envío.</small>
+<script>
+(function(){
+  document.querySelectorAll('.bundle-selector input[type=radio]').forEach(function(r){
+    r.addEventListener('change', function(){
+      var q = this.value, p = this.dataset.price, u = this.dataset.unit;
+      document.querySelectorAll('input[name=quantity]').forEach(function(h){ h.value = q; });
+      document.querySelectorAll('input[name=bundle_total_price]').forEach(function(h){ h.value = p; });
+      document.querySelectorAll('input[name=unit_price_at_purchase]').forEach(function(h){ h.value = u; });
+    });
+  });
+})();
+</script>
+
+<form id="lead-form-hero" action="https://lead-capture.mantissa-bot.workers.dev/" method="POST" style="max-width:400px;margin:0 auto">
+        <input type="hidden" name="quantity" value="3"><input type="hidden" name="bundle_total_price" value="379000"><input type="hidden" name="unit_price_at_purchase" value="126333">
     <input type="hidden" name="product" value="calmano">
     <input type="hidden" name="source" value="calmano.co">
     <input type="text" name="name" placeholder="Tu nombre" required
@@ -600,7 +665,7 @@ a:hover{text-decoration:underline}
       </ul>
       <p style="font-size:0.78rem;color:#6b7280;margin:0.75rem 0 0 0;">Estos estudios respaldan ingredientes individuales del producto, no constituyen aprobación específica de Calmano.</p>
     </section>
-      <p class="hero-desc"><p class="hero-desc">Valeriana + pasiflora + magnesio. Calma sin dependencia. Envío discreto. Garantía 30 días.</p><p class="hero-desc">Valeriana + pasiflora + magnesio. Calma sin dependencia. Envío discreto. Garantía 30 días.<p class="hero-desc">Valeriana + pasiflora + magnesio. Calma sin dependencia. Envío discreto. Garantía 30 días.<p class="hero-desc">Valeriana + pasiflora + magnesio. Calma sin dependencia. Envío discreto. Garantía 30 días.Calmano combina ingredientes adaptógenos y ansiolíticos naturales respaldados por la ciencia para apoyar la salud mental y el manejo del estrés. Cada cápsula contiene ashwagandha KSM-66 (300 mg), valeriana (250 mg), GABA (200 mg), L-teanina (200 mg) y magnesio bisglicinato (150 mg). Formulado para a...
+      <p class="hero-desc">Valeriana + pasiflora + magnesio. Calma sin dependencia. Envío discreto. Garantía 30 días.</p>
       
     <!-- Scarcity Banner -->
     <div class="scarcity-banner">
@@ -618,6 +683,7 @@ a:hover{text-decoration:underline}
     <strong>Calmano</strong> — Solicita información
   </p>
   <form action="https://lead-capture.mantissa-bot.workers.dev/" method="POST" style="max-width:400px;margin:0 auto">
+        <input type="hidden" name="quantity" value="3"><input type="hidden" name="bundle_total_price" value="379000"><input type="hidden" name="unit_price_at_purchase" value="126333">
     <input type="hidden" name="product" value="calmano">
     <input type="hidden" name="source" value="calmano.co">
     <input type="text" name="name" placeholder="Nombre completo" required autocomplete="name"
@@ -767,6 +833,7 @@ a:hover{text-decoration:underline}
     <strong>Calmano</strong> — Solicita información
   </p>
   <form action="https://lead-capture.mantissa-bot.workers.dev/" method="POST" style="max-width:400px;margin:0 auto">
+        <input type="hidden" name="quantity" value="3"><input type="hidden" name="bundle_total_price" value="379000"><input type="hidden" name="unit_price_at_purchase" value="126333">
     <input type="hidden" name="product" value="calmano">
     <input type="hidden" name="source" value="calmano.co">
     <input type="text" name="name" placeholder="Nombre completo" required autocomplete="name"
